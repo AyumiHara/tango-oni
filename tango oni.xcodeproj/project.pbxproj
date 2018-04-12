@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E28FBD2207C90A100DD6334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FBD1207C90A100DD6334 /* AppDelegate.swift */; };
+		1E28FBD4207C90A100DD6334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FBD3207C90A100DD6334 /* ViewController.swift */; };
+		1E28FBD7207C90A100DD6334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E28FBD5207C90A100DD6334 /* Main.storyboard */; };
+		1E28FBD9207C90A200DD6334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E28FBD8207C90A200DD6334 /* Assets.xcassets */; };
+		1E28FBDC207C90A200DD6334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E28FBDA207C90A200DD6334 /* LaunchScreen.storyboard */; };
+		1E28FBE7207C90A200DD6334 /* tango_oniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FBE6207C90A200DD6334 /* tango_oniTests.swift */; };
+		1E28FBF2207C90A200DD6334 /* tango_oniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FBF1207C90A200DD6334 /* tango_oniUITests.swift */; };
+		1E28FC03207C90BE00DD6334 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E28FC00207C90BE00DD6334 /* word_blank.png */; };
+		1E28FC04207C90BE00DD6334 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E28FC01207C90BE00DD6334 /* fin.png */; };
+		1E28FC05207C90BE00DD6334 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E28FC02207C90BE00DD6334 /* title_logo.png */; };
+		1E28FC1A207C9A9400DD6334 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FC19207C9A9400DD6334 /* QuestionViewController.swift */; };
+		1E28FC1C207C9AA300DD6334 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FC1B207C9AA300DD6334 /* FinishViewController.swift */; };
+		1E28FC20207C9AC600DD6334 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FC1F207C9AC600DD6334 /* AddViewController.swift */; };
+		1E28FC22207CA12D00DD6334 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FC21207CA12D00DD6334 /* ListTableViewController.swift */; };
+		1E28FC25207E4EE300DD6334 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E28FC23207E4EE300DD6334 /* ListTableViewCell.swift */; };
+		1E28FC26207E4EE300DD6334 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E28FC24207E4EE300DD6334 /* ListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E28FBE3207C90A200DD6334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E28FBC6207C90A100DD6334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E28FBCD207C90A100DD6334;
+			remoteInfo = "tango oni";
+		};
+		1E28FBEE207C90A200DD6334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E28FBC6207C90A100DD6334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E28FBCD207C90A100DD6334;
+			remoteInfo = "tango oni";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E28FBCE207C90A100DD6334 /* tango oni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tango oni.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E28FBD1207C90A100DD6334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E28FBD3207C90A100DD6334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E28FBD6207C90A100DD6334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E28FBD8207C90A200DD6334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E28FBDB207C90A200DD6334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E28FBDD207C90A200DD6334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E28FBE2207C90A200DD6334 /* tango oniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tango oniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E28FBE6207C90A200DD6334 /* tango_oniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tango_oniTests.swift; sourceTree = "<group>"; };
+		1E28FBE8207C90A200DD6334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E28FBED207C90A200DD6334 /* tango oniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tango oniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E28FBF1207C90A200DD6334 /* tango_oniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tango_oniUITests.swift; sourceTree = "<group>"; };
+		1E28FBF3207C90A200DD6334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E28FC00207C90BE00DD6334 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		1E28FC01207C90BE00DD6334 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		1E28FC02207C90BE00DD6334 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		1E28FC19207C9A9400DD6334 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		1E28FC1B207C9AA300DD6334 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		1E28FC1F207C9AC600DD6334 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1E28FC21207CA12D00DD6334 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		1E28FC23207E4EE300DD6334 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		1E28FC24207E4EE300DD6334 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E28FBCB207C90A100DD6334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E28FBDF207C90A200DD6334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E28FBEA207C90A200DD6334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E28FBC5207C90A100DD6334 = {
+			isa = PBXGroup;
+			children = (
+				1E28FBD0207C90A100DD6334 /* tango oni */,
+				1E28FBE5207C90A200DD6334 /* tango oniTests */,
+				1E28FBF0207C90A200DD6334 /* tango oniUITests */,
+				1E28FBCF207C90A100DD6334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E28FBCF207C90A100DD6334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E28FBCE207C90A100DD6334 /* tango oni.app */,
+				1E28FBE2207C90A200DD6334 /* tango oniTests.xctest */,
+				1E28FBED207C90A200DD6334 /* tango oniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E28FBD0207C90A100DD6334 /* tango oni */ = {
+			isa = PBXGroup;
+			children = (
+				1E28FBD1207C90A100DD6334 /* AppDelegate.swift */,
+				1E28FBD3207C90A100DD6334 /* ViewController.swift */,
+				1E28FBD5207C90A100DD6334 /* Main.storyboard */,
+				1E28FBD8207C90A200DD6334 /* Assets.xcassets */,
+				1E28FBDA207C90A200DD6334 /* LaunchScreen.storyboard */,
+				1E28FBDD207C90A200DD6334 /* Info.plist */,
+				1E28FBFF207C90BE00DD6334 /* WordList素材 */,
+				1E28FC19207C9A9400DD6334 /* QuestionViewController.swift */,
+				1E28FC1B207C9AA300DD6334 /* FinishViewController.swift */,
+				1E28FC1F207C9AC600DD6334 /* AddViewController.swift */,
+				1E28FC21207CA12D00DD6334 /* ListTableViewController.swift */,
+				1E28FC23207E4EE300DD6334 /* ListTableViewCell.swift */,
+				1E28FC24207E4EE300DD6334 /* ListTableViewCell.xib */,
+			);
+			path = "tango oni";
+			sourceTree = "<group>";
+		};
+		1E28FBE5207C90A200DD6334 /* tango oniTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E28FBE6207C90A200DD6334 /* tango_oniTests.swift */,
+				1E28FBE8207C90A200DD6334 /* Info.plist */,
+			);
+			path = "tango oniTests";
+			sourceTree = "<group>";
+		};
+		1E28FBF0207C90A200DD6334 /* tango oniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E28FBF1207C90A200DD6334 /* tango_oniUITests.swift */,
+				1E28FBF3207C90A200DD6334 /* Info.plist */,
+			);
+			path = "tango oniUITests";
+			sourceTree = "<group>";
+		};
+		1E28FBFF207C90BE00DD6334 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				1E28FC00207C90BE00DD6334 /* word_blank.png */,
+				1E28FC01207C90BE00DD6334 /* fin.png */,
+				1E28FC02207C90BE00DD6334 /* title_logo.png */,
+			);
+			path = "WordList素材";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E28FBCD207C90A100DD6334 /* tango oni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E28FBF6207C90A200DD6334 /* Build configuration list for PBXNativeTarget "tango oni" */;
+			buildPhases = (
+				1E28FBCA207C90A100DD6334 /* Sources */,
+				1E28FBCB207C90A100DD6334 /* Frameworks */,
+				1E28FBCC207C90A100DD6334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tango oni";
+			productName = "tango oni";
+			productReference = 1E28FBCE207C90A100DD6334 /* tango oni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E28FBE1207C90A200DD6334 /* tango oniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E28FBF9207C90A200DD6334 /* Build configuration list for PBXNativeTarget "tango oniTests" */;
+			buildPhases = (
+				1E28FBDE207C90A200DD6334 /* Sources */,
+				1E28FBDF207C90A200DD6334 /* Frameworks */,
+				1E28FBE0207C90A200DD6334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E28FBE4207C90A200DD6334 /* PBXTargetDependency */,
+			);
+			name = "tango oniTests";
+			productName = "tango oniTests";
+			productReference = 1E28FBE2207C90A200DD6334 /* tango oniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E28FBEC207C90A200DD6334 /* tango oniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E28FBFC207C90A200DD6334 /* Build configuration list for PBXNativeTarget "tango oniUITests" */;
+			buildPhases = (
+				1E28FBE9207C90A200DD6334 /* Sources */,
+				1E28FBEA207C90A200DD6334 /* Frameworks */,
+				1E28FBEB207C90A200DD6334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E28FBEF207C90A200DD6334 /* PBXTargetDependency */,
+			);
+			name = "tango oniUITests";
+			productName = "tango oniUITests";
+			productReference = 1E28FBED207C90A200DD6334 /* tango oniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E28FBC6207C90A100DD6334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "原あゆみ";
+				TargetAttributes = {
+					1E28FBCD207C90A100DD6334 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1E28FBE1207C90A200DD6334 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1E28FBCD207C90A100DD6334;
+					};
+					1E28FBEC207C90A200DD6334 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1E28FBCD207C90A100DD6334;
+					};
+				};
+			};
+			buildConfigurationList = 1E28FBC9207C90A100DD6334 /* Build configuration list for PBXProject "tango oni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E28FBC5207C90A100DD6334;
+			productRefGroup = 1E28FBCF207C90A100DD6334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E28FBCD207C90A100DD6334 /* tango oni */,
+				1E28FBE1207C90A200DD6334 /* tango oniTests */,
+				1E28FBEC207C90A200DD6334 /* tango oniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E28FBCC207C90A100DD6334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E28FC03207C90BE00DD6334 /* word_blank.png in Resources */,
+				1E28FC05207C90BE00DD6334 /* title_logo.png in Resources */,
+				1E28FBDC207C90A200DD6334 /* LaunchScreen.storyboard in Resources */,
+				1E28FBD9207C90A200DD6334 /* Assets.xcassets in Resources */,
+				1E28FC04207C90BE00DD6334 /* fin.png in Resources */,
+				1E28FBD7207C90A100DD6334 /* Main.storyboard in Resources */,
+				1E28FC26207E4EE300DD6334 /* ListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E28FBE0207C90A200DD6334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E28FBEB207C90A200DD6334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E28FBCA207C90A100DD6334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E28FC25207E4EE300DD6334 /* ListTableViewCell.swift in Sources */,
+				1E28FBD4207C90A100DD6334 /* ViewController.swift in Sources */,
+				1E28FC1C207C9AA300DD6334 /* FinishViewController.swift in Sources */,
+				1E28FC20207C9AC600DD6334 /* AddViewController.swift in Sources */,
+				1E28FC22207CA12D00DD6334 /* ListTableViewController.swift in Sources */,
+				1E28FBD2207C90A100DD6334 /* AppDelegate.swift in Sources */,
+				1E28FC1A207C9A9400DD6334 /* QuestionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E28FBDE207C90A200DD6334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E28FBE7207C90A200DD6334 /* tango_oniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E28FBE9207C90A200DD6334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E28FBF2207C90A200DD6334 /* tango_oniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E28FBE4207C90A200DD6334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E28FBCD207C90A100DD6334 /* tango oni */;
+			targetProxy = 1E28FBE3207C90A200DD6334 /* PBXContainerItemProxy */;
+		};
+		1E28FBEF207C90A200DD6334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E28FBCD207C90A100DD6334 /* tango oni */;
+			targetProxy = 1E28FBEE207C90A200DD6334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E28FBD5207C90A100DD6334 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E28FBD6207C90A100DD6334 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E28FBDA207C90A200DD6334 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E28FBDB207C90A200DD6334 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E28FBF4207C90A200DD6334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E28FBF5207C90A200DD6334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E28FBF7207C90A200DD6334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tango oni/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harappa.tango-oni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E28FBF8207C90A200DD6334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tango oni/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harappa.tango-oni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E28FBFA207C90A200DD6334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tango oniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harappa.tango-oniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tango oni.app/tango oni";
+			};
+			name = Debug;
+		};
+		1E28FBFB207C90A200DD6334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tango oniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harappa.tango-oniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tango oni.app/tango oni";
+			};
+			name = Release;
+		};
+		1E28FBFD207C90A200DD6334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tango oniUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harappa.tango-oniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tango oni";
+			};
+			name = Debug;
+		};
+		1E28FBFE207C90A200DD6334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tango oniUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harappa.tango-oniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tango oni";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E28FBC9207C90A100DD6334 /* Build configuration list for PBXProject "tango oni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E28FBF4207C90A200DD6334 /* Debug */,
+				1E28FBF5207C90A200DD6334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E28FBF6207C90A200DD6334 /* Build configuration list for PBXNativeTarget "tango oni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E28FBF7207C90A200DD6334 /* Debug */,
+				1E28FBF8207C90A200DD6334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E28FBF9207C90A200DD6334 /* Build configuration list for PBXNativeTarget "tango oniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E28FBFA207C90A200DD6334 /* Debug */,
+				1E28FBFB207C90A200DD6334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E28FBFC207C90A200DD6334 /* Build configuration list for PBXNativeTarget "tango oniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E28FBFD207C90A200DD6334 /* Debug */,
+				1E28FBFE207C90A200DD6334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E28FBC6207C90A100DD6334 /* Project object */;
+}
